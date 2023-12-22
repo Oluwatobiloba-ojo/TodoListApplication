@@ -16,7 +16,6 @@ import org.semicolon.util.Mapper;
 import org.semicolon.util.PasswordEncode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 
 @Service
@@ -37,7 +36,7 @@ public class TodoListServiceImpl implements TodoListService {
         TodoList todoList = todoListRepository.findByUsername(loginRequest.getUsername());
         boolean isEqual = PasswordEncode.verifyPassword(loginRequest.getPassword(), todoList.getPassword());
         if (!isEqual) throw new InvalidDetailsException("Invalid details");
-        todoList.setLocked(false);
+        todoList.setLogOut(false);
         todoListRepository.save(todoList);
     }
     @Override
@@ -48,7 +47,6 @@ public class TodoListServiceImpl implements TodoListService {
         if (taskCreated(dataRequest.getMessage(), todoList, dateCreated))throw new TaskExistException("Task has been created already");
         taskService.create(dataRequest, todoList.getId());
     }
-
     private boolean taskCreated(String message, TodoList todoList, Date dateCreated) {
         if (taskService.findTaskFor(message, todoList.getId(), dateCreated) != null){
             return true;
@@ -56,7 +54,7 @@ public class TodoListServiceImpl implements TodoListService {
         return false;
     }
     private static void accountLocked(String username, TodoList todoList) {
-        if (todoList.isLocked()) throw new InvalidLogInDetails(username + " account is locked");
+        if (todoList.isLogOut()) throw new InvalidLogInDetails(username + " account is locked");
     }
     @Override
     public List<Task> findTodoCreatedBy(String username, Date dateCreated) {
@@ -75,11 +73,9 @@ public class TodoListServiceImpl implements TodoListService {
         taskEmpty(tasks);
         return tasks;
     }
-
     private static void taskEmpty(List<Task> tasks) {
         if (tasks.isEmpty()) throw new TaskExistException("No task created");
     }
-
     @Override
     public Task findTaskFor(String username, String message, Date dateCreated) {
         TodoList todoList = todoListRepository.findByUsername(username);
@@ -92,7 +88,7 @@ public class TodoListServiceImpl implements TodoListService {
     public void update(String username, Date dateCreated, String oldMessage, String newMessage) {
         if (!userExist(username)) throw new ClientExistException("Invalid user");
         TodoList todoList = todoListRepository.findByUsername(username);
-        if (taskCreated(oldMessage, todoList, dateCreated))throw new TaskExistException("Task has been created already");
+        if (taskCreated(newMessage, todoList, dateCreated))throw new TaskExistException("Task has been created already");
         taskService.update(todoList.getId(), dateCreated, oldMessage, newMessage);
     }
     @Override
@@ -119,7 +115,6 @@ public class TodoListServiceImpl implements TodoListService {
      TodoList todoList = todoListRepository.findByUsername(username);
      todoListRepository.delete(todoList);
     }
-
     private boolean userExist(String username) {
         TodoList todoList = todoListRepository.findByUsername(username);
         return todoList != null;
