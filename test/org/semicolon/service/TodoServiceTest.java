@@ -1,5 +1,8 @@
 package org.semicolon.service;
 
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import org.semicolon.data.repository.TaskRepository;
 import org.semicolon.data.repository.TodoListRepository;
 import org.semicolon.dtos.request.DataRequest;
@@ -7,14 +10,14 @@ import org.semicolon.dtos.request.LoginRequest;
 import org.semicolon.dtos.request.RegisterRequest;
 import org.semicolon.exception.ClientExistException;
 import org.semicolon.exception.InvalidDetailsException;
+import org.semicolon.exception.TaskExistException;
 import org.semicolon.util.Date;
 import org.semicolon.util.DateTime;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+
 import java.time.LocalDateTime;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
@@ -32,9 +35,9 @@ class TodoServiceTest {
         todoListRepository.deleteAll();
         taskRepository.deleteAll();
         registerRequest.setUsername("ope");
-        registerRequest.setPassword("password");
+        registerRequest.setPassword("Passwords45@");
         loginRequest.setUsername("ope");
-        loginRequest.setPassword("password");
+        loginRequest.setPassword("Passwords45@");
     }
     @Test
     public void testThatWhenTheyRegisterWithSameUsernameTheyCanNotRegisterAnyMoreWithUsername(){
@@ -96,9 +99,9 @@ class TodoServiceTest {
         todoListService.login(loginRequest);
 
         registerRequest.setUsername("delighted");
-        registerRequest.setPassword("password");
+        registerRequest.setPassword("Passwords45@");
         loginRequest.setUsername("delighted");
-        loginRequest.setPassword("password");
+        loginRequest.setPassword("Passwords45@");
         todoListService.register(registerRequest);
         todoListService.login(loginRequest);
         Date date = new Date();
@@ -204,7 +207,7 @@ class TodoServiceTest {
         todoListService.create("ope", dataRequest1);
         assertEquals(1, taskRepository.count());
         todoListService.deleteAll("ope");
-        assertEquals(0, todoListService.findTaskBelongingTo("ope").size());
+        assertThrows(TaskExistException.class, () ->todoListService.findTaskBelongingTo("ope"));
     }
     @Test
     public void testThatWeCanCreateTwoTodo_ICanDeleteOneTodoTaskAndCountIsOne(){
