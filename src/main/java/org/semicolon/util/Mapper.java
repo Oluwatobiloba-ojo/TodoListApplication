@@ -3,6 +3,8 @@ import org.semicolon.data.model.Task;
 import org.semicolon.data.model.TodoList;
 import org.semicolon.dtos.request.DataRequest;
 import org.semicolon.dtos.request.RegisterRequest;
+import org.semicolon.exception.InvalidDetailsException;
+
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
@@ -10,9 +12,10 @@ public class Mapper {
 
     public static TodoList mapToTodolist(RegisterRequest registerRequest){
         TodoList todoList = new TodoList();
+        if (!Verification.verify(registerRequest.getPassword())) throw new InvalidDetailsException("Weak Password");
         String securePassword = PasswordEncode.generateHashPassword(registerRequest.getPassword(), PasswordEncode.getSaltValue());
-        todoList.setUsername(registerRequest.getUsername());
         todoList.setPassword(securePassword);
+        todoList.setUsername(registerRequest.getUsername());
         return todoList;
     }
     public static Task mapDataToTask(DataRequest dataRequest, String id){

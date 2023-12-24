@@ -54,12 +54,14 @@ public class TaskServiceImpl implements TaskService {
     @Override
     public void update(String todoId, Date dateCreated, String oldMessage, String newMessage) {
        Task task = findTaskFor(oldMessage, todoId, dateCreated);
+       if (task == null) throw new TaskExistException("Task does not exist");
        task.setMessage(newMessage);
        taskRepository.save(task);
     }
     @Override
     public void update(String todoId, Date dateCreated, String oldMessage, DateTime newDueDate) {
         Task task = findTaskFor(oldMessage, todoId, dateCreated);
+        if (task == null) throw new TaskExistException("Task does not exist");
         LocalDateTime newDueDateCreated = mapDueDateToLocalDateTime(newDueDate);
         task.setDueDateTime(newDueDateCreated);
         taskRepository.save(task);

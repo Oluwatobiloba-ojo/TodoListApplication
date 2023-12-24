@@ -7,7 +7,6 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Data
-@RequiredArgsConstructor
 @Document
 public class Task {
     @Id

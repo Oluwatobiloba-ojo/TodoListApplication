@@ -13,5 +13,5 @@ public class TodoList {
     private String id;
     private String username;
     private String password;
-    private boolean isLocked = true;
+    private boolean isLogOut = true;
 }

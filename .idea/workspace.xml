@@ -5,53 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bb4d693-ad87-471d-b598-dfb06fc59a12" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/controller/TodoListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/data/model/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/data/model/TodoList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/data/repository/TaskRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/data/repository/TodoListRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/dtos/request/CreateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/dtos/request/DataRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/dtos/request/DeleteATaskRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/dtos/request/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/dtos/request/RegisterRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/dtos/request/UpdateDueDateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/dtos/request/ViewADayRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/dtos/request/ViewATaskRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/dtos/request/ViewRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/dtos/response/ApiResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/dtos/response/CreateResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/dtos/response/DeleteATaskResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/dtos/response/DeleteAllResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/dtos/response/LoginResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/dtos/response/RegisterResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/dtos/response/UpdateDueDateResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/dtos/response/UpdateResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/dtos/response/ViewADayResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/dtos/response/ViewATaskResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/dtos/response/ViewResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/exception/ClientExistException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/exception/InvalidDetailsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/exception/InvalidLogInDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/exception/TaskExistException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/exception/TodoListException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/service/TaskService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/service/TaskServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/service/TodoListService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/service/TodoListServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/util/Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/util/DateTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/util/Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/util/PasswordEncode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/org/semicolon/service/TodoServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/semicolon/data/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/data/model/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/semicolon/data/model/TodoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/data/model/TodoList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/semicolon/service/TaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/service/TaskServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/semicolon/service/TodoListServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/service/TodoListServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/semicolon/util/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/util/Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/semicolon/util/PasswordEncode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/util/PasswordEncode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +25,7 @@
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -98,6 +60,8 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Docker&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;35379b35cde46f898e867fbd44468e31&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -123,9 +87,16 @@
       <recent name="africa.semicolon.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PasswordEncode">
-    <configuration name="PasswordEncode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.semicolon.util.PasswordEncode" />
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="docker-deploy" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TodoServiceTest (1)">
+    <configuration name="Verification" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.semicolon.util.Verification" />
       <module name="todoLists" />
       <extension name="coverage">
         <pattern>
@@ -152,22 +123,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TodoServiceTest.testThatWhenICreateATaskForDifferentDateAndIWantToFindATaskCreatedInADay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="todoLists" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.semicolon.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.semicolon.service" />
-      <option name="MAIN_CLASS_NAME" value="org.semicolon.service.TodoServiceTest" />
-      <option name="METHOD_NAME" value="testThatWhenICreateATaskForDifferentDateAndIWantToFindATaskCreatedInADay" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TodoServiceTest.testThatWhenICreateATodoWeCanUpdateTheTaskWithAMessageGivenThatUsername_DateCollected" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="todoLists" />
       <extension name="coverage">
@@ -179,6 +134,22 @@
       <option name="PACKAGE_NAME" value="org.semicolon.service" />
       <option name="MAIN_CLASS_NAME" value="org.semicolon.service.TodoServiceTest" />
       <option name="METHOD_NAME" value="testThatWhenICreateATodoWeCanUpdateTheTaskWithAMessageGivenThatUsername_DateCollected" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoServiceTest.testThatWhenTheyRegisterWithSameUsernameTheyCanNotRegisterAnyMoreWithUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="todoLists" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.semicolon.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.semicolon.service" />
+      <option name="MAIN_CLASS_NAME" value="org.semicolon.service.TodoServiceTest" />
+      <option name="METHOD_NAME" value="testThatWhenTheyRegisterWithSameUsernameTheyCanNotRegisterAnyMoreWithUsername" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -200,9 +171,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Main" />
-        <item itemvalue="Application.PasswordEncode" />
         <item itemvalue="JUnit.TodoServiceTest (1)" />
-        <item itemvalue="JUnit.TodoServiceTest.testThatWhenICreateATaskForDifferentDateAndIWantToFindATaskCreatedInADay" />
+        <item itemvalue="JUnit.TodoServiceTest.testThatWhenTheyRegisterWithSameUsernameTheyCanNotRegisterAnyMoreWithUsername" />
+        <item itemvalue="Application.Verification" />
         <item itemvalue="JUnit.TodoServiceTest.testThatWhenICreateATodoWeCanUpdateTheTaskWithAMessageGivenThatUsername_DateCollected" />
       </list>
     </recent_temporary>
@@ -224,11 +195,25 @@
       <workItem from="1702898160253" duration="3019000" />
       <workItem from="1702909587300" duration="8974000" />
       <workItem from="1702936771866" duration="11648000" />
-      <workItem from="1702984258426" duration="15302000" />
+      <workItem from="1702984258426" duration="20746000" />
+      <workItem from="1703169576366" duration="17816000" />
+      <workItem from="1703382340386" duration="2020000" />
+      <workItem from="1703386936910" duration="1781000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

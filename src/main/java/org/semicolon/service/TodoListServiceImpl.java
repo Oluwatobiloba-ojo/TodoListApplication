@@ -41,6 +41,7 @@ public class TodoListServiceImpl implements TodoListService {
     }
     @Override
     public void create(String username, DataRequest dataRequest) {
+        if (!userExist(username)) throw new ClientExistException("Client does not exist");
         TodoList todoList = todoListRepository.findByUsername(username);
         accountLocked(username, todoList);
         Date dateCreated = Mapper.mapLocalDateToDate(dataRequest.getDate());
@@ -58,6 +59,7 @@ public class TodoListServiceImpl implements TodoListService {
     }
     @Override
     public List<Task> findTodoCreatedBy(String username, Date dateCreated) {
+        if(!userExist(username))throw new ClientExistException("Client does not exist");
         TodoList todoList = todoListRepository.findByUsername(username);
         accountLocked(username, todoList);
         List<Task> tasks = taskService.findParticularTaskInADay(todoList.getId(), dateCreated);
@@ -78,6 +80,7 @@ public class TodoListServiceImpl implements TodoListService {
     }
     @Override
     public Task findTaskFor(String username, String message, Date dateCreated) {
+        if (!userExist(username)) throw new ClientExistException("Client does not exist");
         TodoList todoList = todoListRepository.findByUsername(username);
         accountLocked(username, todoList);
         Task task = taskService.findTaskFor(message, todoList.getId(), dateCreated);

@@ -37,8 +37,6 @@ public class PasswordEncode {
         byte[] securePassword = hash(password.toCharArray(), salt.getBytes());
         return Base64.getEncoder().encodeToString(securePassword) + salt;
     }
-
-
     public static boolean verifyPassword(String newPassword, String oldPassword) {
         String salt = "";
         for (int count = oldPassword.length() -1; count >= oldPassword.length() - length; count--) {
