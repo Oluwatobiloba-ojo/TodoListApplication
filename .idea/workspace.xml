@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bb4d693-ad87-471d-b598-dfb06fc59a12" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/semicolon/data/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/data/model/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/semicolon/data/model/TodoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/data/model/TodoList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/semicolon/service/TaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/service/TaskServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/semicolon/service/TodoListServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/service/TodoListServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/semicolon/util/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/util/Mapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/semicolon/util/PasswordEncode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/util/PasswordEncode.java" afterDir="false" />
-    </list>
+    <list default="true" id="5bb4d693-ad87-471d-b598-dfb06fc59a12" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,7 +189,7 @@
       <workItem from="1702984258426" duration="20746000" />
       <workItem from="1703169576366" duration="17816000" />
       <workItem from="1703382340386" duration="2020000" />
-      <workItem from="1703386936910" duration="1781000" />
+      <workItem from="1703386936910" duration="2313000" />
     </task>
     <servers />
   </component>
