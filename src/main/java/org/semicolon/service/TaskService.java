@@ -10,7 +10,6 @@ import java.util.List;
 public interface TaskService {
     void create(DataRequest dataRequest, String id);
     List<Task> findTaskBelongingTo(String id);
-
     List<Task> findParticularTaskInADay(String todoId, Date dateCreated);
     Task findTaskFor(String message, String todoId, Date dateCreated);
     void update(String id, Date dateCreated, String oldMessage, String newMessage);

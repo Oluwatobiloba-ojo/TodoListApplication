@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bb4d693-ad87-471d-b598-dfb06fc59a12" name="Changes" comment="" />
+    <list default="true" id="5bb4d693-ad87-471d-b598-dfb06fc59a12" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/semicolon/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/service/TaskService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +19,8 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Dockerfile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -85,7 +89,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TodoServiceTest (1)">
+  <component name="RunManager" selected="Docker.Dockerfile">
     <configuration name="Verification" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.semicolon.util.Verification" />
       <module name="todoLists" />
@@ -110,22 +114,6 @@
       <option name="PACKAGE_NAME" value="org.semicolon.service" />
       <option name="MAIN_CLASS_NAME" value="org.semicolon.service.TodoServiceTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TodoServiceTest.testThatWhenICreateATodoWeCanUpdateTheTaskWithAMessageGivenThatUsername_DateCollected" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="todoLists" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.semicolon.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.semicolon.service" />
-      <option name="MAIN_CLASS_NAME" value="org.semicolon.service.TodoServiceTest" />
-      <option name="METHOD_NAME" value="testThatWhenICreateATodoWeCanUpdateTheTaskWithAMessageGivenThatUsername_DateCollected" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,13 +147,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Spring Boot.Main" />
         <item itemvalue="JUnit.TodoServiceTest (1)" />
         <item itemvalue="JUnit.TodoServiceTest.testThatWhenTheyRegisterWithSameUsernameTheyCanNotRegisterAnyMoreWithUsername" />
         <item itemvalue="Application.Verification" />
-        <item itemvalue="JUnit.TodoServiceTest.testThatWhenICreateATodoWeCanUpdateTheTaskWithAMessageGivenThatUsername_DateCollected" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +191,11 @@
       <workItem from="1702984258426" duration="20746000" />
       <workItem from="1703169576366" duration="17816000" />
       <workItem from="1703382340386" duration="2020000" />
-      <workItem from="1703386936910" duration="2313000" />
+      <workItem from="1703386936910" duration="12177000" />
+      <workItem from="1703536384978" duration="109000" />
+      <workItem from="1703625563377" duration="2501000" />
+      <workItem from="1703762779541" duration="851000" />
+      <workItem from="1703793345606" duration="778000" />
     </task>
     <servers />
   </component>
