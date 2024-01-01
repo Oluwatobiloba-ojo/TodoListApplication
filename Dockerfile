@@ -7,4 +7,3 @@ FROM openjdk:21-jre-slim
 COPY --from=build /home/app/target/todoLists-1.0.0-SNAPSHOT.jar /usr/local/lib/demo.jar
 EXPOSE 9005
 ENTRYPOINT ["java","-jar","/usr/local/lib/demo.jar"]
-
