@@ -3,7 +3,7 @@ COPY src /home/app/src
 COPY pom.xml /home/app
 RUN mvn -f /home/app/pom.xml clean package
 
-FROM openjdk:21-jre-slim
+FROM openjdk:11-ea-11-slim
 COPY --from=build /home/app/target/todoLists-1.0.0-SNAPSHOT.jar /usr/local/lib/demo.jar
 EXPOSE 9005
 ENTRYPOINT ["java","-jar","/usr/local/lib/demo.jar"]
