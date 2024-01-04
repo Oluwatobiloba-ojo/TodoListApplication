@@ -1,4 +1,7 @@
-
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
