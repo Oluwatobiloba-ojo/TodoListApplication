@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* org.semicolon.todoLists
+web: java -Dserver.port=443 -jar target/*.jar
