@@ -8,7 +8,8 @@ import java.security.spec.InvalidKeySpecException;
 import java.util.Arrays;
 import java.util.Base64;
 
-public class PasswordEncode {
+public class
+PasswordEncode {
     private static final SecureRandom random = new SecureRandom();
     private static final String characters = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
     private static final int iterations = 10000;

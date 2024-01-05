@@ -4,9 +4,10 @@ import org.semicolon.data.model.Task;
 import org.semicolon.dtos.request.DataRequest;
 import org.semicolon.util.Date;
 import org.semicolon.util.DateTime;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public interface TaskService {
     void create(DataRequest dataRequest, String id);
     List<Task> findTaskBelongingTo(String id);

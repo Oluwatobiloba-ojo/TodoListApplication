@@ -17,11 +17,8 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/user")
 public class TodoListController {
-    private final TodoListService todoListService;
     @Autowired
-    public TodoListController(TodoListService todoListService) {
-        this.todoListService = todoListService;
-    }
+    private TodoListService todoListService;
     @PostMapping("/register")
     public ResponseEntity<ApiResponse> register(@RequestBody RegisterRequest registerRequest){
         RegisterResponse registerResponse = new RegisterResponse();

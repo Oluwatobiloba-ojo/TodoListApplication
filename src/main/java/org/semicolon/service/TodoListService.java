@@ -6,9 +6,10 @@ import org.semicolon.dtos.request.LoginRequest;
 import org.semicolon.dtos.request.RegisterRequest;
 import org.semicolon.util.Date;
 import org.semicolon.util.DateTime;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public interface TodoListService  {
     void register(RegisterRequest registerRequest);
     void login(LoginRequest loginRequest);
