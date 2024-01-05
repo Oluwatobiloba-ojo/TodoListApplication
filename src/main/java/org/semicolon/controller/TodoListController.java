@@ -7,6 +7,7 @@ import org.semicolon.exception.TodoListException;
 import org.semicolon.service.TodoListService;
 import org.semicolon.util.Mapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -18,7 +19,7 @@ import java.util.List;
 public class TodoListController {
     private final TodoListService todoListService;
     @Autowired
-    public TodoListController(TodoListService todoListService){
+    public TodoListController(TodoListService todoListService) {
         this.todoListService = todoListService;
     }
     @PostMapping("/register")
