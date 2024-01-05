@@ -7,7 +7,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Data
-@Document
+@Document(collation = "Task")
 public class Task {
     @Id
     private String id;
