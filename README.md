@@ -1,5 +1,6 @@
-Todolist
-A todolist allows you to prioritize the tasks that are more important. This means you don't waste time on tasks that don't
+TODOLIST APPLICATION
+
+ A todolist allows you to prioritize the tasks that are more important. This means you don't waste time on tasks that don't
 require your immediate attention. It also helps in showing your the due date of task which is schedule on the todolist, 
 This application is built on java, maven spring-boot, and mongodb for storage
 
