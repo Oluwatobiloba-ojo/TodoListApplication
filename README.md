@@ -5,17 +5,17 @@ require your immediate attention. It also helps in showing your the due date of 
 This application is built on java, maven spring-boot, and mongodb for storage
 
 Features
-User registeration
-User Login
-Create Task
-View A Day TodoList
-View All TodoList
-Delete A Task
-Delete All Task
-Update A Task Message
-Update Task DueDate
-Delete Account
-View A Particular Task
+* User registeration
+* User Login
+* Create Task
+* View A Day TodoList
+* View All TodoList
+* Delete A Task
+* Delete All Task
+* Update A Task Message
+* Update Task DueDate
+* Delete Account
+* View A Particular Task
 
 ﻿
 GET
