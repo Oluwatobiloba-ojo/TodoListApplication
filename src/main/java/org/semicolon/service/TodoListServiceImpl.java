@@ -120,6 +120,5 @@ public class TodoListServiceImpl implements TodoListService {
     }
     private boolean userExist(String username) {
         TodoList todoList = todoListRepository.findByUsername(username);
-        return todoList != null;
-    }
+        return todoList != null;}
 }

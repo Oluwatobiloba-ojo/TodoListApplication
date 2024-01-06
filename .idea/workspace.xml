@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bb4d693-ad87-471d-b598-dfb06fc59a12" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/semicolon/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/semicolon/controller/TodoListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/controller/TodoListController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/semicolon/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/service/TaskService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/semicolon/service/TodoListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/service/TodoListService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/semicolon/data/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/data/model/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/semicolon/data/model/TodoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/data/model/TodoList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/semicolon/service/TodoListServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/service/TodoListServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/Main.class" afterDir="false" />
@@ -39,9 +36,6 @@
       <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/ViewADayResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/ViewADayResponse.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/ViewATaskResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/ViewATaskResponse.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/ViewResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/ViewResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/service/TaskService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/service/TaskService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/service/TodoListService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/service/TodoListService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/service/TodoListServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/service/TodoListServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/util/Date.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/util/Date.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/util/DateTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/util/DateTime.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/util/PasswordEncode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/util/PasswordEncode.class" afterDir="false" />
@@ -241,7 +235,7 @@
       <workItem from="1704380477861" duration="232000" />
       <workItem from="1704388542772" duration="8576000" />
       <workItem from="1704403369902" duration="328000" />
-      <workItem from="1704409545042" duration="17565000" />
+      <workItem from="1704409545042" duration="27601000" />
     </task>
     <servers />
   </component>
