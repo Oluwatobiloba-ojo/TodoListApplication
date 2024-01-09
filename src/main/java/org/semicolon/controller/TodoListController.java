@@ -19,6 +19,10 @@ import java.util.List;
 public class TodoListController {
     @Autowired
     private TodoListService todoListService;
+    @GetMapping("/")
+    public String run(){
+        return "application is up and running";
+    }
     @PostMapping("/register")
     public ResponseEntity<ApiResponse> register(@RequestBody RegisterRequest registerRequest){
         RegisterResponse registerResponse = new RegisterResponse();
