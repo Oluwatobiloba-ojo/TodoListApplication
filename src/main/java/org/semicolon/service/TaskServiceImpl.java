@@ -35,8 +35,7 @@ public class TaskServiceImpl implements TaskService {
     public List<Task> findParticularTaskInADay(String id, Date dateCreated) {
         List<Task> tasks = new ArrayList<>();
         LocalDate localDate = mapDateToLocalDate(dateCreated);
-       List<Task> taskCreated =  findTaskBelongingTo(id);
-       for (Task task : taskCreated){
+       for (Task task : findTaskBelongingTo(id)){
            LocalDate dateCreate = task.getLocalDate();
            if (dateCreate.getYear() == localDate.getYear() && dateCreate.getMonthValue() == localDate.getMonthValue()
            && dateCreate.getDayOfMonth() == localDate.getDayOfMonth()) tasks.add(task);
