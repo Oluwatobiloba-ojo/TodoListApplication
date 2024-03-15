@@ -5,8 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bb4d693-ad87-471d-b598-dfb06fc59a12" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/jwt/JwtFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/jwt/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/securityConfig/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/securityConfig/UserDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/data/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.env" beforeDir="false" afterPath="$PROJECT_DIR$/config.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/semicolon/controller/TodoListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/controller/TodoListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/semicolon/data/model/TodoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/data/model/TodoList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/semicolon/data/repository/TodoListRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/data/repository/TodoListRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/controller/TodoListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/controller/TodoListController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/data/model/TodoList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/data/model/TodoList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/CreateRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/CreateRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/DataRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/DataRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/DeleteATaskRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/DeleteATaskRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/LoginRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/LoginRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/RegisterRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/RegisterRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/UpdateDueDateRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/UpdateDueDateRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/UpdateRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/UpdateRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/ViewADayRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/ViewADayRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/ViewATaskRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/ViewATaskRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/ViewRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/ViewRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/ApiResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/ApiResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/CreateResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/CreateResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/DeleteATaskResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/DeleteATaskResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/DeleteAllResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/DeleteAllResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/LoginResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/LoginResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/RegisterResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/RegisterResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/UpdateDueDateResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/UpdateDueDateResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/UpdateResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/UpdateResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/ViewADayResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/ViewADayResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/ViewATaskResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/ViewATaskResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/ViewResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/ViewResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/service/TodoListServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/service/TodoListServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/util/Date.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/util/Date.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/util/DateTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/util/DateTime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/util/PasswordEncode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/util/PasswordEncode.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +89,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/todoLists/src/main/java/africa/semicolon&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/TodoListApplication/config.env&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -145,6 +182,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="true" />
+        <option name="IS_SUBST" value="true" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="true" />
+        <option name="IS_IGNORE_MISSING_FILES" value="true" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+          <ENTRY IS_ENABLED="true" PARSER="env" IS_EXECUTABLE="false" PATH="config.env" />
+        </ENTRIES>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -163,6 +211,13 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.Verification" />
+      <item itemvalue="Docker.Dockerfile" />
+      <item itemvalue="JUnit.TodoServiceTest.testThatWhenTheyRegisterWithSameUsernameTheyCanNotRegisterAnyMoreWithUsername" />
+      <item itemvalue="JUnit.TodoServiceTest (1)" />
+      <item itemvalue="Spring Boot.Main" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Main" />
@@ -210,6 +265,21 @@
       <workItem from="1704539575673" duration="3059000" />
       <workItem from="1704645531371" duration="581000" />
       <workItem from="1704744344810" duration="6608000" />
+      <workItem from="1704899415859" duration="1189000" />
+      <workItem from="1704979284910" duration="667000" />
+      <workItem from="1704983899683" duration="589000" />
+      <workItem from="1705007545466" duration="561000" />
+      <workItem from="1705246769689" duration="566000" />
+      <workItem from="1705478777607" duration="1007000" />
+      <workItem from="1705578613484" duration="1178000" />
+      <workItem from="1705598776383" duration="1693000" />
+      <workItem from="1706022457957" duration="1171000" />
+      <workItem from="1706947220419" duration="35000" />
+      <workItem from="1708511602438" duration="1373000" />
+      <workItem from="1709577317798" duration="1650000" />
+      <workItem from="1709991010437" duration="784000" />
+      <workItem from="1710050563176" duration="1058000" />
+      <workItem from="1710466553958" duration="2089000" />
     </task>
     <servers />
   </component>
