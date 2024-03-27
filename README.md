@@ -1,9 +1,20 @@
-# **Todolist**
+# Todolist
 
 ## Table Of Content
 * [Introduction](#Introduction)
+* [SetUp](#SetUp)
 * [Features](#Features)
 * [EndPoint](#end-points)
+
+
+# SetUp
+* install git
+* Install mySql for proper database functions
+* Clone the project by following the cloning process
+* Ensure your project is on the right server.port
+* Click on this link (https://github.com/Oluwatobiloba-ojo/TodoListApplication.git)
+* Open your Post man Application,paste the accurate url on the given url space
+* Ensure all dependencies in the the above project are well injected in your pom.xml
 
 # Introduction
 A todolist allows you to prioritize the tasks that are more important. This means you don't waste time on tasks that don't require your immediate attention. It also helps in showing your the due date of task which is schedule on the todolist, This application is built on java, maven spring-boot, and mongodb for storage
