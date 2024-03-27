@@ -1,8 +1,8 @@
 # ToDolist Web Application
 
 ## Table Of Content
-* [Introduction](#Introduction)
 * [SetUp](#SetUp)
+* [Introduction](#Introduction)
 * [Features](#Features)
 * [EndPoint](#end-points)
 
