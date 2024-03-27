@@ -1,4 +1,4 @@
-# Todolist
+# ToDolist Web Application
 
 ## Table Of Content
 * [Introduction](#Introduction)
