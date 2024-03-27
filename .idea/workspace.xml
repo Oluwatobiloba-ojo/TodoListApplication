@@ -4,46 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bb4d693-ad87-471d-b598-dfb06fc59a12" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/jwt/JwtFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/jwt/JwtService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/securityConfig/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/securityConfig/UserDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/data/model/Role.java" afterDir="false" />
+    <list default="true" id="5bb4d693-ad87-471d-b598-dfb06fc59a12" name="Changes" comment="refactor controller">
+      <change afterPath="$PROJECT_DIR$/diagrams/erd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagrams/uml.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagrams/usecase.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.env" beforeDir="false" afterPath="$PROJECT_DIR$/config.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/semicolon/controller/TodoListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/controller/TodoListController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/semicolon/data/model/TodoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/data/model/TodoList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/semicolon/data/repository/TodoListRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/semicolon/data/repository/TodoListRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/controller/TodoListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/controller/TodoListController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/data/model/TodoList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/data/model/TodoList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/CreateRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/CreateRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/DataRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/DataRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/DeleteATaskRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/DeleteATaskRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/LoginRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/LoginRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/RegisterRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/RegisterRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/UpdateDueDateRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/UpdateDueDateRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/UpdateRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/UpdateRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/ViewADayRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/ViewADayRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/ViewATaskRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/ViewATaskRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/ViewRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/request/ViewRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/ApiResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/ApiResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/CreateResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/CreateResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/DeleteATaskResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/DeleteATaskResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/DeleteAllResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/DeleteAllResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/LoginResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/LoginResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/RegisterResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/RegisterResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/UpdateDueDateResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/UpdateDueDateResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/UpdateResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/UpdateResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/ViewADayResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/ViewADayResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/ViewATaskResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/ViewATaskResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/ViewResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/dtos/response/ViewResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/service/TodoListServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/service/TodoListServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/util/Date.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/util/Date.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/util/DateTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/util/DateTime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/semicolon/util/PasswordEncode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/semicolon/util/PasswordEncode.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +24,7 @@
         <option value="Interface" />
         <option value="Dockerfile" />
         <option value="Class" />
+        <option value="editable-svg" />
       </list>
     </option>
   </component>
@@ -95,7 +63,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Docker&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;35379b35cde46f898e867fbd44468e31&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -280,7 +248,22 @@
       <workItem from="1709991010437" duration="784000" />
       <workItem from="1710050563176" duration="1058000" />
       <workItem from="1710466553958" duration="2089000" />
+      <workItem from="1710477007278" duration="793000" />
+      <workItem from="1711466160794" duration="1820000" />
+      <workItem from="1711469633092" duration="676000" />
+      <workItem from="1711472535442" duration="643000" />
+      <workItem from="1711481645140" duration="5130000" />
+      <workItem from="1711493296503" duration="4001000" />
     </task>
+    <task id="LOCAL-00001" summary="refactor controller">
+      <option name="closed" value="true" />
+      <created>1710481788475</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710481788475</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,5 +279,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactor controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor controller" />
   </component>
 </project>
