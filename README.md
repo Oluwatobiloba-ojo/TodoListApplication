@@ -12,6 +12,7 @@
 * Install mySql for proper database functions
 * Clone the project by following the cloning process
 * Ensure your project is on the right server.port
+* install jdk version 21
 * Click on this link (https://github.com/Oluwatobiloba-ojo/TodoListApplication.git)
 * Open your Post man Application,paste the accurate url on the given url space
 * Ensure all dependencies in the the above project are well injected in your pom.xml
